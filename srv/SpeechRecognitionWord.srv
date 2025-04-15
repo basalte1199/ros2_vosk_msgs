@@ -1,0 +1,5 @@
+string model_name
+string custom_vocaburary[]
+---
+string  final_result
+bool    is_speech_recognized
