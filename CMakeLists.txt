@@ -16,6 +16,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SpeechRecognition.msg"
+  "srv/SpeechRecognitionWord.srv"
   DEPENDENCIES builtin_interfaces
 )
 
